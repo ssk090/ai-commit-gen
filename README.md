@@ -17,18 +17,24 @@ AI Commit Message Generator is a tool that uses an AI model to generate commit m
    ```sh
    git clone https://github.com/ssk090/ai-commit-gen.git
    cd ai-commit-gen
+   ```
 2. Install the dependencies:
    ```sh
    npm install
+   ```
 
 ## Usage
+
 1. Ensure you have staged changes in your Git repository:
    ```sh
    git add .
+   ```
 2. Run the AI Commit Message Generator:
    ```sh
    node index.js
+   ```
 3. Follow the interactive prompt to proceed with the commit, regenerate the message, or discard it.
+
    ```sh
    ✨ Generating commit message...
     --------------------------------------------------
@@ -36,17 +42,21 @@ AI Commit Message Generator is a tool that uses an AI model to generate commit m
     feat(package.json): update package.json with ai-commit-gen information
     - added new package name and version
     - updated scripts to include test command
-    - set author and license details 
+    - set author and license details
     - impact: enables accurate dependency tracking for ai-commit-gen project
 
     Proceed to commit? [y(yes) | n(no) | r(regenerate)] ›
+   ```
+
 4. Choose an action:
+
 - `y` or `yes`: Proceed with the commit
 - `n` or `no`: Discard the AI-generated commit message
 - `r` or `regenerate`: Regenerate the commit message
 
-
 ## Configuration
+
 - The tool uses the following configuration files:
 - `commands.js`: Defines the shell commands used by the tool.
 - `systemPrompt.js`: Contains the system prompt used by the AI model to generate commit messages.
+- `index.js`: Main file that orchestrates the commit message generation process.
