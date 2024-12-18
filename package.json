@@ -1,16 +1,23 @@
 {
   "name": "ai-commit-gen",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI based commit message generator using Ollama model",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ai",
+    "commit",
+    "generator"
+  ],
+  "author": "Shivananda Sai",
   "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2",
+    "ollama": "^0.5.11",
+    "prompts": "^2.4.2",
     "yargs": "^17.7.2"
   }
 }
