@@ -1,7 +1,10 @@
 # AI Commit Message Generator
 
 AI Commit Message Generator is a tool that uses an AI model to generate commit messages based on the staged changes in your Git repository. It leverages the Ollama model to create concise, informative commit messages that follow best practices in version control.
-<img width="1035" alt="image" src="https://github.com/user-attachments/assets/116590cd-b1fc-4f89-b8b0-fcc31b4acd1a" />
+
+https://github.com/user-attachments/assets/c2a12028-774d-488b-885d-675fad9840ee
+
+
 
 ## Features
 
